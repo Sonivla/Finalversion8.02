@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>Dla Martynki <3</title>
+	<link rel="stylesheet" href="style.css"> <script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="love">
+			<h1> <a id="Card" href="Card.html" >Kartka Walentynkowa!</a>  </h1>
+			<h2>Dla mojej Martynki!</h2>
+			<a id="Prezent" href="Prezent.html">Prezencik</a>
+
+			<h2> Zostaniesz moją walentynką  <span>Misia?</span> </h2>
+		
+			<a id="no" href="no.html">Nie:(</a>
+			<a id="yes" href="yes.html">Tak:)</a>
+			<h2>To dla Ciebie kochanie</h2>
+			<audio controls>
+				<source src="yes to heaven  lana del rey.mp3" type="audio/mpeg" >
+			</audio>
+			<h1> <a href="Doberman.html"> Wchodzisz na własną odpowiedzialność! </a></h1>
+			<h2>Zabieram Cię na randkę!</h2>
+			<div class="gif_container">
+				<img
+				  src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif"
+				  alt="Cute animated illustration"
+				/>
+			  </div>
+			  <div class="buttons">
+				<button class="btn" id="yesButton" onclick="nextPage()" style="background-color: greenyellow; color: black;">Si</button>
+				<button
+				  class="btn"
+				  id="noButton"
+				  onmouseover="moveButton()"
+				  onclick="moveButton()"
+				style="background-color: red;color: black;">
+				  No
+				</button>
+		
+				<script>
+				  function nextPage() {
+					window.location.href = "testtak.html";
+				  }
+		
+				  function moveButton() {
+					var x =
+					  Math.random() *
+					  (window.innerWidth -
+						document.getElementById("noButton").offsetWidth);
+					var y =
+					  Math.random() *
+					  (window.innerHeight -
+						document.getElementById("noButton").offsetHeight);
+					document.getElementById("noButton").style.left = `${x}px`;
+					document.getElementById("noButton").style.top = `${y}px`;
+				  }
+				</script>
+			  </div>
+		</div>
+	</div>
+	<div class="happy-valentines">
+        <div class="valentines-day-card">
+          <div class="clouds"></div>
+          <div class="hearts">
+            <div class="heartOne">
+              <div class="left-side"></div>
+              <div class="right-side"></div>
+            </div>
+            <div class="heartTwo">
+              <div class="left-side"></div>
+              <div class="right-side"></div>
+            </div>
+                <div class="heartThree">
+              <div class="left-side"></div>
+              <div class="right-side"></div>
+            </div>
+             <div class="heartFour">
+              <div class="left-side"></div>
+              <div class="right-side"></div>
+            </div>
+             <div class="heartFive">
+             <div class="left-side"></div>
+              <div class="right-side"></div>
+            </div>
+          </div>
+          <div class="text"><span>Przytrzymaj tutaj </br> mała!</div>
+        </div>
+    
+        </div>
+
+	
+</body>
+</html>
